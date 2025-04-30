@@ -41,9 +41,7 @@ pip install prometheus_client requests
 
 ### 3. Configure Discord Webhook
 
-Open `honeypot.py` and set your Discord webhook URL:
-
-WEBHOOK_URL = "https://discord.com/api/webhooks/your_webhook_here"
+Open `honeypot.py` and set your Discord webhook URL
 
 ### 4. Run the Honeypot
 
