@@ -99,6 +99,15 @@ Each time an attacker interacts with a honeypot (login, command, HTTP request), 
 ├── sessions/                 # Logs for each connection/session
 ├── README.md                 # You're here
 
+| File | Description |
+|----------|----------|
+| **honeypot.py**  | # Main honeypot script |
+| **honeypot_log.txt**    | # Log of suspicious activity |
+| **honeypot_system.log**    | # System-level log |
+| **sessions/**   | # Logs for each connection/session |
+| **README.md** | # Essential information about this project |
+
+
 ---
 
 ## Contact
@@ -110,4 +119,3 @@ Contributions and suggestions welcome!
 ## Show Your Support
 
 If you find this useful, please ⭐️ the repository on GitHub and share it with others in the cybersecurity community!
-```
