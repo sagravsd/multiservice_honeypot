@@ -3,19 +3,6 @@ A Python-based honeypot that simulates multiple network services to detect, log,
 
 ---
 
-## Table of Contents
-
-- [Features](#-features)
-- [Services](#-services)
-- [Getting Started](#-getting-started)
-- [Prometheus Metrics](#-prometheus-metrics)
-- [Discord Alerts](#-discord-alerts)
-- [Simulated Activity](#-simulated-activity)
-- [Security Notice](#-security-notice)
-- [License](#-license)
-
----
-
 ## Features
 
 - Simulates common services (SSH, FTP, HTTP, Telnet, Shell)  
@@ -41,24 +28,24 @@ A Python-based honeypot that simulates multiple network services to detect, log,
 
 ## Getting Started
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 
 git clone https://github.com/yourusername/multi-service-honeypot.git
 cd multi-service-honeypot
 
 ---
 
-### 2️⃣ Install Dependencies
+### 2. Install Dependencies
 
 pip install prometheus_client requests
 
-### 3️⃣ Configure Discord Webhook
+### 3. Configure Discord Webhook
 
 Open `honeypot.py` and set your Discord webhook URL:
 
 WEBHOOK_URL = "https://discord.com/api/webhooks/your_webhook_here"
 
-### 4️⃣ Run the Honeypot
+### 4. Run the Honeypot
 
 python honeypot.py
 
