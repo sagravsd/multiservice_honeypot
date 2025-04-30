@@ -30,7 +30,7 @@ A Python-based honeypot that simulates multiple network services to detect, log,
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/multi-service-honeypot.git
+git clone https://github.com/sagravsd/multi-service-honeypot.git
 cd multi-service-honeypot
 
 ---
