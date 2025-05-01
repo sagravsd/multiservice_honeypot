@@ -1,5 +1,6 @@
 # Multi-Service Honeypot System
-A Python-based honeypot that simulates multiple network services to detect, log, and analyze malicious activity. Supports real-time Prometheus metrics and Discord alerts.
+A Python-based honeypot that simulates multiple network services to detect, log, and analyze malicious activity. Supports real-time Prometheus metrics and Discord alerts
+OS agnostic. Testing done in Windows and Kali.
 
 ---
 
